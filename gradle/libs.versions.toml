@@ -1,0 +1,11 @@
+[versions]
+annotations = "24.1.0"
+hikariCP = "4.0.3"
+h2 = "2.2.224"
+json = "20240303"
+
+[libraries]
+annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }
+hikariCP = { module = "com.zaxxer:HikariCP", version.ref = "hikariCP"}
+h2 = { module = "com.h2database:h2", version.ref = "h2" }
+json = { module = "org.json:json", version.ref = "json"}
